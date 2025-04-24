@@ -48,7 +48,7 @@ Or run this on the Wazuh Box:
 ```bash
 sudo nano /var/ossec/etc/ossec.conf
 ```
-Add the following block above the <policy_monitoring> section:
+Add the following block above the <policy_monitoring> section and save and restart the manager:
 ```bash
 <localfile>
   <log_format>syslog</log_format>
@@ -69,7 +69,7 @@ Edit the rsyslog configuration:
 ```bash
 sudo nano /etc/rsyslog.conf
 ```
-Uncomment the following two lines:
+Uncomment the following two lines for udp communication through 514:
 ```bash
 module(load="imudp")  # needs to be done just once
 input(type="imudp" port="514")
@@ -82,7 +82,7 @@ if $fromhost-ip startswith '<SITE-ASA-IP>' then /var/log/siteasa.log
 ```
 Save and close the file.
 
-### 4. Restart Services
+### 4. Restart Wazuh and rsyslog Services
 ```bash
 sudo systemctl restart rsyslog
 sudo systemctl restart wazuh-manager
