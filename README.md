@@ -43,4 +43,4 @@ Add the following block above the <policy_monitoring> section:
 </localfile>
 ```
 
-### 2. Create the ASA log file
+### 2. Create the ASA log file (this is were our logs will go) 
