@@ -31,10 +31,10 @@ By forwarding Cisco ASA logs into Wazuh, we’re enhancing perimeter visibility,
 
 ## 🛠️ Tools Used  
 <div>
-  <img src="https://img.shields.io/badge/-Wazuh_Agent-000000?&style=for-the-badge&logo=Wazuh&logoColor=white" />
-  <img src="https://img.shields.io/badge/-RHEL-EE0000?&style=for-the-badge&logo=Red-Hat&logoColor=white" />
-  <img src="https://img.shields.io/badge/-rsyslog-333333?&style=for-the-badge&logo=Linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Cisco_ASA-1BA0D7?&style=for-the-badge&logo=Cisco&logoColor=white" />
+  <a href="https://documentation.wazuh.com/current/quickstart.html" target="_blank"><img src="https://img.shields.io/badge/-Wazuh-0078D4?&style=for-the-badge&logo=Wazuh&logoColor=white" />
+  <a href="https://developers.redhat.com/products/rhel/download" target="_blank"><img src="https://img.shields.io/badge/-RHEL-EE0000?&style=for-the-badge&logo=Red-Hat&logoColor=white" />
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/-rsyslog-333333?&style=for-the-badge&logo=Linux&logoColor=white" />
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/-Cisco_ASA-1BA0D7?&style=for-the-badge&logo=Cisco&logoColor=white" />
 </div>
 
 ---
