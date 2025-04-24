@@ -34,6 +34,12 @@ Wazuh is a free, open-source security monitoring platform used for threat detect
 
 ### 1. Modify the `ossec.conf` file in Wazuh Manager  
 Navigate to the config:
-```bash
 ☰ → Server Management → Settings → Edit Configuration
 Add the following block above the <policy_monitoring> section:
+```bash
+<localfile>
+  <log_format>syslog</log_format>
+  <location>/var/log/siteasa.log</location>
+</localfile>
+```
+### 2. Create the ASA log file
