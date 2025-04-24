@@ -96,11 +96,16 @@ ll
 ```
 You should see the siteasa.log file increasing in size as ASA logs are received.
 
-📎 Notes
+---
+
+### 📎 Notes
 Make sure the ASA firewall is configured to send syslogs to the Wazuh server's IP on UDP port 514.
 Ensure the correct IP (<SITE-ASA-IP>) is used in the rsyslog configuration.
 
+---
 
+### 👨‍💻 Author
+Mario Tagaras | Florida State University Alum
 
 
 
