@@ -44,6 +44,10 @@ By forwarding Cisco ASA logs into Wazuh, we’re enhancing perimeter visibility,
 ### 1. Modify the `ossec.conf` file in Wazuh Manager  
 Navigate to the config:
 ☰ → Server Management → Settings → Edit Configuration
+Or run this on the Wazuh Box:
+```bash
+sudo nano /var/ossec/etc/ossec.conf
+```
 Add the following block above the <policy_monitoring> section:
 ```bash
 <localfile>
