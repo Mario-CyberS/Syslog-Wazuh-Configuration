@@ -11,10 +11,10 @@ To enable log collection from a Cisco ASA gateway by configuring Wazuh to ingest
 
 In this project, we configure **syslog ingestion** on a Wazuh server to collect logs from a **Cisco ASA firewall**. This is essential for:
 
-- 📦 **Centralizing logs** from your network gateway  
-- 🔐 **Monitoring security events** such as denies, blocks, and threats  
-- 🧠 **Supporting incident response** with detailed traffic records  
-- 📊 **Visualizing alerts and trends** in the Wazuh dashboard  
+- **Centralizing logs** from your network gateway  
+- **Monitoring security events** such as denies, blocks, and threats  
+- **Supporting incident response** with detailed traffic records  
+- **Visualizing alerts and trends** in the Wazuh dashboard  
 
 By forwarding Cisco ASA logs into Wazuh, we’re enhancing perimeter visibility, supporting real-time threat detection, and contributing to a stronger Security Operations Center (SOC) workflow.
 
@@ -98,7 +98,7 @@ You should see the siteasa.log file increasing in size as ASA logs are received.
 
 ---
 
-### 📎 Notes
+### Notes
 Make sure the ASA firewall is configured to send syslogs to the Wazuh server's IP on UDP port 514.
 Ensure the correct IP (<SITE-ASA-IP>) is used in the rsyslog configuration.
 
